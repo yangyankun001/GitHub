@@ -11,6 +11,8 @@ namespace GitHub
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+
+            //修改
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
